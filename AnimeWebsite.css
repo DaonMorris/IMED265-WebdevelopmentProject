@@ -1,0 +1,215 @@
+/*Testing*/
+body{
+    background-color:#333333;
+    opacity: 1;
+	
+}
+.Title {
+    color: white;
+	position: absolute;
+    margin-left:170px;
+    margin-top:76px;
+	font-size: 58px;
+	font-family:sans-serif;
+	}
+    
+
+.Logo{
+    height: 120px;
+    width: 124px;
+	border-style:solid;
+	- border-image:url("https://i.postimg.cc/85hhjLWr/1920px-Lilyu-Crying-svg.png";);
+}
+
+	/*Put the Sticky Property under ul-tag*/
+
+.container2{
+	height:1120px;
+	-padding-bottom:467px;
+	-border-style:dashed;
+}
+ul{
+	list-style-type:none; 
+	-background-color: aqua;
+	overflow:hidden;
+	margin-left:579px;
+	margin-top:166px;
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	position:sticky;
+	top:0px;
+	
+}
+
+
+li {
+	float:left;
+	margin-right:30px;
+	margin-top:15px;
+	font-family:sans-serif, "Time_New_Roman";
+	font-size:19px;
+	- border-right-style:solid;
+	- border-left-sytle:solid;
+}
+
+.LastChild:last-child{
+		float:right;
+		margin-right:15px;
+}
+
+li a{
+	display:block; 
+	color:white;
+	text-decoration:none;
+	padding:20px 16px;
+}
+
+li a:hover {
+	background-color:white;
+	color:black;
+}
+
+
+
+
+
+/*This section is under Added New Character*/
+
+#NewCharacter{
+	-padding-top:310px;
+	font-size:32px;
+	color:White;
+	margin-right:100px;
+}
+
+
+
+
+/*How clumsy you are, Miss Ueno*/
+.Character1{
+	-border-style:solid;
+	position: relative;
+	border-bottom-style:solid;
+}
+
+.Image1{
+	width:239px;
+	height:234px;
+	margin-left:10px;
+}
+
+.container{
+	border-left-style:solid;
+	position: absolute;
+	top:0px;
+	right:30px;
+	margin-left:253px;	
+}
+
+.ShowTitle{
+	font-family:fantasy;
+	font-size:23px;
+	text-align:center;
+	color:white;
+}
+	
+.Description{
+	font-family:fantasy;
+	font-size:18px;
+	margin-left:100px;
+	padding-bottom:0px;
+	line-height:50px;
+	color:white;	
+	}
+
+
+/*Free! anime show*/
+.Character2{
+	border-bottom-style:solid;
+	padding-top:265px;
+	position: relative;	
+}
+
+.image2{
+	width:239px;
+	height:234px;
+	margin-left:10px;
+	position:absolute;
+	top:20px;
+}
+
+.container3{
+	border-left-style:solid;
+	position:absolute;
+	top:0px;
+	right:30px;
+	margin-left:253px; 
+	margin-top:0px;
+}
+
+.Description2{
+	font-family:fantasy;
+	color:white;
+	margin-left:100px;
+	line-height:30px;
+	font-size:18px;
+}
+
+/*JoJo Bizarre Adventure*/
+.Character3{
+	border-bottom-style:solid;
+	padding-bottom:10px;
+	position:relative;
+	
+}
+
+.image3{
+	width:239px;
+	height:234px;
+	margin-top:20px;
+}
+
+.container4{
+	border-left-style:solid;
+	right:30px;
+	position: absolute;
+	top:20px;
+	font-family: fantasy;
+	font-size:18px;
+	margin-left:250px;
+	height:246px;
+}
+	
+.Description3{
+	margin-left:100px;
+	color:inherit;
+}
+
+
+#Social-media{
+	margin-top:1490px;
+	right:10px;
+	top:0;
+	position:absolute;
+	height:1525px;	
+	
+}
+
+
+.Box{
+	-background-color:aquamarine;
+	top:350px;
+	position:sticky;
+}
+
+.Media-Logo{
+	height:50px;
+	position:relative;
+	Left:0px;
+	-padding:1px;
+}
+
+
+	
+}
+
