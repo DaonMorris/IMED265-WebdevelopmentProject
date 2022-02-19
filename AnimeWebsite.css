@@ -78,10 +78,20 @@ li a:hover {
 #NewCharacter{
 	-padding-top:310px;
 	font-size:32px;
-	color:White;
-	margin-right:100px;
+	color:white;
+	margin-right:0px;
 }
 
+#NewCharacter h2{
+	-text-decoration: underline;
+	border-bottom-style:solid;
+	Padding-right:10px;
+	text-align:center;	
+}
+
+#NewCharacter h3 a{
+	color:inherit;
+}
 
 
 
@@ -144,7 +154,8 @@ li a:hover {
 	top:0px;
 	right:30px;
 	margin-left:253px; 
-	margin-top:0px;
+	margin-top:20px;
+	height:236px;
 }
 
 .Description2{
@@ -182,17 +193,16 @@ li a:hover {
 	
 .Description3{
 	margin-left:100px;
-	color:inherit;
+	color:white;
 }
 
 
-#Social-media{
-	margin-top:1490px;
+#Social-media-link{
+	margin-top:1420px;
 	right:10px;
-	top:0;
+	top:0px;
 	position:absolute;
-	height:1525px;	
-	
+	height:1600px;		
 }
 
 
@@ -203,13 +213,19 @@ li a:hover {
 }
 
 .Media-Logo{
-	height:50px;
+	height:30px;
 	position:relative;
 	Left:0px;
 	-padding:1px;
 }
 
-
-	
+div{
+	margin:0px;
 }
 
+
+div a:active{
+	-background-color:#2B78E4;
+	padding-top:35px;
+	opacity:21%;	
+}
