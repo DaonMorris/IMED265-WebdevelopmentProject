@@ -1,7 +1,15 @@
+
+@font-face{
+	src:url("fonts/Gideon_Roman/GideonRoman-Regular.ttf");
+	font-family:font1;
+		
+}
+
 /*Testing*/
 body{
     background-color:#333333;
     opacity: 1;
+	padding-bottom:0px;
 	
 }
 .Title {
@@ -18,83 +26,147 @@ body{
     height: 120px;
     width: 124px;
 	border-style:solid;
-	- border-image:url("https://i.postimg.cc/85hhjLWr/1920px-Lilyu-Crying-svg.png";);
+	border-image:url("https://i.postimg.cc/85hhjLWr/1920px-Lilyu-Crying-svg.png";);
 }
-
+	
+	/*Creating a video and meun bar bpx*/
 	/*Put the Sticky Property under ul-tag*/
 
-.container2{
-	height:1120px;
-	-padding-bottom:467px;
-	-border-style:dashed;
-}
-ul{
-	list-style-type:none; 
-	-background-color: aqua;
+#Introdution .Video{
+	-border-color:red;
+	-border-style:solid;
 	overflow:hidden;
-	margin-left:579px;
-	margin-top:166px;
-	border-bottom-style:solid;
-	border-bottom-color:white;
+	margin:100px 0px 0px 0px;
+	padding:140px 0px 580px;
+	-position:relative;
+	
+}
+
+
+ .clips{
+	border-style:solid;
+	border-color:black;
+	padding-bottom:587px;
+	margin-top:5px;
+	color:white;	
+}
+
+
+.Meun{
+	-border-style:solid;
+	-border-color:aqua;
+	-padding-bottom:200px;
+	padding-right:100px;
+	position:absolute;
+	right:10px;
+	top:320px;
+	height:1300px;
+}
+
+/*Creating the Bar Meun
+
+#Menu-Bar .Meun{
+	border-color:fuchsia;
+	border-style:solid;
+	margin-top:100px;
+	padding-bottom:50px;
+	margin-left:580px;
+	position:relative;
+}
+
+.Meun{
+	height:100px;
+}
+--*/
+
+ul{
+	position: absolute;
 	position:sticky;
 	top:0px;
 	
 }
 
 
-li {
+li{
 	float:left;
-	margin-right:30px;
+	margin-left:65px;
+	text-align:center;
+	list-style-type:none; 
+	font-size:21px;
 	margin-top:15px;
-	font-family:sans-serif, "Time_New_Roman";
-	font-size:19px;
-	- border-right-style:solid;
-	- border-left-sytle:solid;
 }
 
-.LastChild:last-child{
-		float:right;
-		margin-right:15px;
+.last-child a:last-child{
+	float:right;
+	position:absolute;
+	padding-left:20px;	
+	padding-right:20px;
 }
 
 li a{
-	display:block; 
-	color:white;
 	text-decoration:none;
-	padding:20px 16px;
+	color:white;
+	display:block;
+	padding: 4px 0px 4px 0px;
 }
 
-li a:hover {
+li a:hover, .dropdown:hover drop{
 	background-color:white;
 	color:black;
 }
 
+.dropdown{
+	display:inline-block;
+}
 
+.link{
+	position:absolute;
+	display:none;
+	min-width:0px;
+	z-index:1;
+}
 
+.link a{
+	display:block;
+	text-decoration: none;
+	padding: 6px 1px 6px 1px;	
+}
+
+.link a:hover{
+	background-color:black;
+	color:white;
+}
+
+.dropdown:hover .link{
+	display:block;
+}
 
 
 /*This section is under Added New Character*/
 
 #NewCharacter{
 	-padding-top:310px;
-	font-size:32px;
+	font-size:36px;
 	color:white;
 	margin-right:0px;
+	padding-bottom:100px;
 }
 
 #NewCharacter h2{
-	-text-decoration: underline;
 	border-bottom-style:solid;
 	Padding-right:10px;
-	text-align:center;	
+	text-align:left;
+	font-size:31px;
 }
 
 #NewCharacter h3 a{
 	color:inherit;
 }
 
-
-
+#NewCharacter .Character1{
+	margin-top:50px;
+	
+}
 /*How clumsy you are, Miss Ueno*/
 .Character1{
 	-border-style:solid;
@@ -117,6 +189,7 @@ li a:hover {
 }
 
 .ShowTitle{
+	
 	font-family:fantasy;
 	font-size:23px;
 	text-align:center;
@@ -196,32 +269,32 @@ li a:hover {
 	color:white;
 }
 
-
+/* Social Media onthe sidebar*/
 #Social-media-link{
-	margin-top:1420px;
+	margin-top:1480px;
 	right:10px;
 	top:0px;
 	position:absolute;
-	height:1600px;		
+	height:1440px;	
+	-background-color:red;
+	
 }
 
 
 .Box{
 	-background-color:aquamarine;
-	top:350px;
+	top:290px;
 	position:sticky;
 }
 
 .Media-Logo{
 	height:30px;
-	position:relative;
+	-position:relative;
 	Left:0px;
 	-padding:1px;
 }
 
-div{
-	margin:0px;
-}
+
 
 
 div a:active{
@@ -229,3 +302,55 @@ div a:active{
 	padding-top:35px;
 	opacity:21%;	
 }
+
+
+
+#AboutPage{
+	-border-style:solid;
+	height:225px;
+	margin-top:200px;
+	position:relative;
+	color:white;
+	padding-bottom:30px;
+}
+
+.container5{
+	border-top-style:solid;
+	border-color:black;	
+	position:absolute;
+	border-width: 6px;
+	padding-bottom:0px;
+	
+}
+
+.container5 h3{
+	font-size:24px;
+	position:absolute;
+	top:0px;
+	font-family:font1;
+	text-decoration:underline;
+}
+
+.container5 p{
+	font-size:20px;
+	line-height:42px;
+	margin-top:100px;
+	font-family:font1;
+}
+
+#referece{
+	background-color:black;
+	padding-bottom:15px;
+}
+
+#referece h5{
+	color:white;
+	margin-left:0px;
+	text-align:center;
+	text-decoration:underline;
+}
+
+#referece p{
+	color:white;
+}
+
