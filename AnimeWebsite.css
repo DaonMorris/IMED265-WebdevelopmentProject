@@ -36,8 +36,8 @@ body{
 	-border-color:red;
 	-border-style:solid;
 	overflow:hidden;
-	margin:100px 0px 0px 0px;
-	padding:140px 0px 580px;
+	margin:100px 0px 650px 0px;
+	padding:140px 0px 0px 0px;
 	-position:relative;
 	
 }
@@ -54,8 +54,8 @@ body{
 
 .Meun{
 	-border-style:solid;
-	-border-color:aqua;
-	-padding-bottom:200px;
+	border-color:aqua;
+	padding-bottom:200px;
 	padding-right:100px;
 	position:absolute;
 	right:10px;
@@ -63,27 +63,10 @@ body{
 	height:1300px;
 }
 
-/*Creating the Bar Meun
-
-#Menu-Bar .Meun{
-	border-color:fuchsia;
-	border-style:solid;
-	margin-top:100px;
-	padding-bottom:50px;
-	margin-left:580px;
-	position:relative;
-}
-
-.Meun{
-	height:100px;
-}
---*/
-
 ul{
 	position: absolute;
 	position:sticky;
-	top:0px;
-	
+	top:0px;	
 }
 
 
@@ -100,15 +83,257 @@ li{
 	float:right;
 	position:absolute;
 	padding-left:20px;	
-	padding-right:20px;
+	padding-right:0px;
 }
 
 li a{
-	text-decoration:none;
+	-text-decoration:none;
+	background-color:#333333;
 	color:white;
 	display:block;
-	padding: 4px 0px 4px 0px;
+	padding: 4px 0px 4px 4px;
+	margin:0px;
+	font-size:25px;
 }
+
+.dropdown{
+	-border-style:solid;
+	border-color:green;
+}
+
+.dropdown:hover .drop{
+	background-color:blue;
+	display:block;
+}
+
+
+.link{
+	position:absolute;
+	display:none;
+}
+
+.dropdown:hover .link{
+	display:block;
+}
+
+
+
+.project .drop2{
+	border-color:aqua;
+	-border-style:solid;
+	display:block;
+	margin:20px 0px 0px 0px;
+}
+
+.project:hover{
+	margin-bottom:110px;
+	display:block;
+}
+
+.project:hover .drop2{
+	background-color:black;
+}
+
+.drop2:hover .link2{
+	display:block;
+}
+.link2 a{
+	font-size:21px;
+	margin-right:35px;
+	text-align:underline;
+}
+.link2 a:hover{
+	background-color:blue;
+	display:inline-block;
+	width:100%;
+	padding-right:0px;
+	margin:0px 0px 0px 5px;
+}
+
+
+.link2{
+	position:absolute;
+	display:none;
+	-margin-top:0px;
+	z-index:2;
+}
+
+.project:hover .link2{
+	display:block;
+}
+
+/*The below is the information about Anime, which is fron the Anime.com/wikipedia*/
+#AboutPage{
+	-border-style:solid;
+	border-color:green;
+	overflow:hidden;
+	position: relative;
+	-padding-bottom:500px;
+	color:white;
+}
+
+
+
+.container1{
+	margin:10px 180px 10px 10px;
+	-border-style:solid;
+	border-color:green;
+	overflow:hidden;	
+}
+
+.container1 div{
+	line-height:28px;
+}
+
+.container1 div p{
+	font-size:20px;
+}
+
+.techique{
+	text-decoration: underline;
+}
+
+
+
+#represent{
+	-border-style:solid;
+	border-color:brown;
+	position:absolute;
+	top:0px;
+	right:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+}
+
+#represent img{
+	left:0px;
+	height:200px;
+	width:150px;
+	margin: 10px 0px 10px 10px;
+}
+
+.description, p{
+	-border-style:solid;
+	position:relative;
+}
+
+.description p{
+	position:absolute;
+	top:176px;
+	left:6px;
+	background-color:black;
+}
+
+.description2{
+	margin:10px 0px 0px 0px;
+}
+
+
+/* Social Media onthe sidebar*/
+#Social-media-link{
+	margin-top:1440px;
+	right:10px;
+	top:0px;
+	position:absolute;
+	height:1440px;	
+	-background-color:red;
+}
+
+
+.Box{
+	-background-color:aquamarine;
+	top:290px;
+	position:sticky;
+}
+
+.Media-Logo{
+	height:30px;
+	-position:relative;
+	Left:0px;
+	-padding:1px;
+	opacity:74%;
+}
+
+
+div a:active{
+	-background-color:#2B78E4;
+	-padding-top:35px;
+}
+
+
+/*This is for the Arrtibutes.html page*/
+
+#Attributes .Meun2{
+	-border-style:solid;
+	border-color:aqua;
+	-padding-bottom:200px;
+	padding-right:100px;
+	position:absolute;
+	right:10px;
+	top:320px;
+}
+
+#Attributes .Meun2 .stop{
+	position:relative;
+	top:0px;
+}
+
+
+#MainPoint{
+	color:white;
+	margin-top:397px;
+	-border-top-style:solid;
+	
+}
+
+#MainPoint h2{
+	border-top-style:solid;
+	border-color:black;
+	padding-top:30px;
+	border-top-width:9px;
+	font-size:32px;
+}
+
+#MainPoint div, h2{
+	margin-left:10px;
+	margin-top:20px;
+}
+
+#MainPoint p{
+	margin-right:389px;
+	line-height:26px;
+	font-size:20px;
+}
+
+#MainPoint h1{
+	text-align:center;
+	-border-bottom-style:solid;
+	margin:0px 150px 0px 150px;
+	font-size:45px;
+	
+}
+
+
+
+
+
+
+/*Creating the Bar Meun
+
+#Menu-Bar .Meun{
+	border-color:fuchsia;
+	border-style:solid;
+	margin-top:100px;
+	padding-bottom:50px;
+	margin-left:580px;
+	position:relative;
+}
+
+.Meun{
+	height:100px;
+}
+--*/
+/* This design is toward the back-up idea for the menu
 
 li a:hover, .dropdown:hover drop{
 	background-color:white;
@@ -141,8 +366,9 @@ li a:hover, .dropdown:hover drop{
 	display:block;
 }
 
+*/
 
-/*This section is under Added New Character*/
+/*This section is under Added New Character
 
 #NewCharacter{
 	-padding-top:310px;
@@ -167,7 +393,7 @@ li a:hover, .dropdown:hover drop{
 	margin-top:50px;
 	
 }
-/*How clumsy you are, Miss Ueno*/
+/*How clumsy you are, Miss Ueno*
 .Character1{
 	-border-style:solid;
 	position: relative;
@@ -206,7 +432,7 @@ li a:hover, .dropdown:hover drop{
 	}
 
 
-/*Free! anime show*/
+/*Free! anime show*
 .Character2{
 	border-bottom-style:solid;
 	padding-top:265px;
@@ -239,7 +465,7 @@ li a:hover, .dropdown:hover drop{
 	font-size:18px;
 }
 
-/*JoJo Bizarre Adventure*/
+/*JoJo Bizarre Adventure*
 .Character3{
 	border-bottom-style:solid;
 	padding-bottom:10px;
@@ -270,87 +496,4 @@ li a:hover, .dropdown:hover drop{
 }
 
 /* Social Media onthe sidebar*/
-#Social-media-link{
-	margin-top:1480px;
-	right:10px;
-	top:0px;
-	position:absolute;
-	height:1440px;	
-	-background-color:red;
-	
-}
-
-
-.Box{
-	-background-color:aquamarine;
-	top:290px;
-	position:sticky;
-}
-
-.Media-Logo{
-	height:30px;
-	-position:relative;
-	Left:0px;
-	-padding:1px;
-}
-
-
-
-
-div a:active{
-	-background-color:#2B78E4;
-	padding-top:35px;
-	opacity:21%;	
-}
-
-
-
-#AboutPage{
-	-border-style:solid;
-	height:225px;
-	margin-top:200px;
-	position:relative;
-	color:white;
-	padding-bottom:30px;
-}
-
-.container5{
-	border-top-style:solid;
-	border-color:black;	
-	position:absolute;
-	border-width: 6px;
-	padding-bottom:0px;
-	
-}
-
-.container5 h3{
-	font-size:24px;
-	position:absolute;
-	top:0px;
-	font-family:font1;
-	text-decoration:underline;
-}
-
-.container5 p{
-	font-size:20px;
-	line-height:42px;
-	margin-top:100px;
-	font-family:font1;
-}
-
-#referece{
-	background-color:black;
-	padding-bottom:15px;
-}
-
-#referece h5{
-	color:white;
-	margin-left:0px;
-	text-align:center;
-	text-decoration:underline;
-}
-
-#referece p{
-	color:white;
-}
 
