@@ -19,8 +19,7 @@ body{
     margin-top:76px;
 	font-size: 58px;
 	font-family:sans-serif;
-	}
-    
+}
 
 .Logo{
     height: 120px;
@@ -59,10 +58,244 @@ body{
 	padding-right:100px;
 	position:absolute;
 	right:10px;
-	top:320px;
+	top:350px;
 	height:1300px;
 }
 
+ul{
+	-border-style:solid;
+	border-color:green;
+	margin-left:0px;
+}
+
+
+li{
+	float:left;
+	list-style-type:none;
+}
+
+li a{
+	display:block;
+	margin-right:100px;
+	text-decoration:none;
+	color:black;
+}
+
+.dropdown:hover .capture{
+	background-color:red;
+}
+.link,.link2,.link3,.link4{
+	border-style:solid;
+}
+.link li, .link2 li,.link3 li,.link4 li{
+	float:none;
+	list-style-type:none;
+	text-decoration: none;
+	-background-color:red	
+}
+
+/*class="Technique" coded*/
+
+.dropdown2:hover .Technique{
+	display:block;
+	background-color:green;
+}
+
+.link{
+	position:absolute;
+	display:none;
+}
+
+.box:hover{
+	padding-bottom:90px;
+	padding-top:13px;
+	z-index:1;
+}
+
+.link li a:hover{
+	display:block;
+	background-color:purple;
+}
+
+.box:hover .link{
+	display:block;
+}
+
+/*class="Characters" codes*/
+
+.dropdown2:hover .Characters{
+	display:block;
+	background-color:fuchsia;
+}
+
+.link2{
+	position:absolute;
+	display:none;
+}
+
+.box2:hover{
+	padding-bottom:90px;
+	padding-top:13px;
+	z-index:2;
+}
+
+.link2 li a:hover{
+	display:block;
+	background-color:forestgreen;
+}
+
+.box2:hover .link2{
+	display:block;
+}
+
+/* This is class="Music" codes*/ 
+
+.dropdown2:hover .Music{
+	display:block;
+	background-color:salmon;
+}
+
+.link3{
+	position:absolute;
+	display:none;
+}
+
+.box3:hover{
+	padding-bottom:90px;
+	padding-top:13px;
+	z-index:3;
+}
+
+.link3 li a:hover{
+	display:block;
+	background-color:forestgreen;
+}
+
+.box3:hover .link3{
+	display:block;
+}
+
+/*This is class="Genres" codes (Think about this main point)*/ 
+
+.dropdown2:hover .Genres{
+	display:block;
+	background-color:salmon;
+}
+
+.link4{
+	position:absolute;
+	display:none;
+}
+
+.box4:hover{
+	padding-bottom:99px;
+	padding-top:13px;
+	z-index:4;
+}
+
+.link4 li a:hover{
+	display:block;
+	background-color:forestgreen;
+}
+
+.box4:hover .link4{
+	display:block;
+}
+
+/*Industry*/
+	/*class="Markets"*/
+.dropdown2:hover .Markets{
+	display:block;
+	background-color:salmon;
+}
+
+.link5{
+	position:absolute;
+	display:none;
+}
+
+.box5:hover{
+	padding-bottom:80px;
+	padding-top:13px;
+	z-index:4;
+}
+
+ .link5 li a:hover{
+	display:block;
+	background-color:yellow;
+}
+
+.box5:hover .link5{
+	display:block;
+}
+
+/*class="Awards" codes*/
+.dropdown2:hover .Awards{
+	display:block;
+	background-color:salmon;
+}
+
+.link6{
+	position:absolute;
+	display:none;
+}
+
+.box6:hover{
+	padding-bottom:290px;
+	padding-top:10px;
+	z-index:4;
+}
+
+.link6 li a{
+	margin-bottom:10px;
+}
+ .link6 li a:hover{
+	display:block;
+	background-color:blue;
+}
+
+.box6:hover .link6{
+	display:block;
+}
+
+/*History*/
+	/*class="Precursors codes*/
+
+/* No need for this selector .link7....
+.link7{
+	position:absolute;	display:none;
+}
+....*/
+
+.box7,.box8,.box9{
+	padding-bottom:10px;
+	padding-top:10px;
+	z-index:4;
+}
+
+.box7 a:hover,.box8 a:hover, .box9 a:hover{
+	background-color:blue;
+	display:block;
+}
+
+/* No need for this selector .link7....
+.link7 li a{
+	margin-bottom:10px;
+}
+/* No need for this selector .link7....
+
+ .link7 li a:hover{
+	display:block;
+	background-color:blue;
+}
+/* No need for this selector .link7....
+
+.box7:hover .link6{
+	display:block;
+}
+....*/
+
+/* Fix the menu Bar. Space Gap close the menu
 ul{
 	position: absolute;
 	position:sticky;
@@ -91,15 +324,11 @@ li a{
 	background-color:#333333;
 	color:white;
 	display:block;
-	padding: 4px 0px 4px 4px;
+	padding: 4px 0px 0px 0px;
 	margin:0px;
 	font-size:25px;
 }
 
-.dropdown{
-	-border-style:solid;
-	border-color:green;
-}
 
 .dropdown:hover .drop{
 	background-color:blue;
@@ -122,11 +351,11 @@ li a{
 	border-color:aqua;
 	-border-style:solid;
 	display:block;
-	margin:20px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 }
 
 .project:hover{
-	margin-bottom:110px;
+	margin:0px 0px 110px 0px;
 	display:block;
 }
 
@@ -139,28 +368,29 @@ li a{
 }
 .link2 a{
 	font-size:21px;
-	margin-right:35px;
 	text-align:underline;
+	
 }
 .link2 a:hover{
 	background-color:blue;
 	display:inline-block;
 	width:100%;
-	padding-right:0px;
-	margin:0px 0px 0px 5px;
+	margin:0px 0px 0px px;
 }
 
 
 .link2{
 	position:absolute;
 	display:none;
-	-margin-top:0px;
+	margin-bottom:0px;
 	z-index:2;
+	text-align:left;
 }
 
 .project:hover .link2{
 	display:block;
 }
+---*/ 
 
 /*The below is the information about Anime, which is fron the Anime.com/wikipedia*/
 #AboutPage{
