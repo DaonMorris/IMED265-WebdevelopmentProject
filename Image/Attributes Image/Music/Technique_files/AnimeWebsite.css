@@ -1,0 +1,382 @@
+
+@font-face{
+src:url("fonts/Gideon_Roman/GideonRoman-Regular.ttf";);
+	font-family:font1;		
+}
+
+/*Testing*/
+body{
+    background-color:#333333;
+    opacity: 1;
+	padding:0px 0px 0px 0px;
+	
+}
+
+.Title {
+    color: white;
+	position: absolute;
+    margin-left:170px;
+    margin-top:76px;
+	font-size: 58px;
+	font-family:sans-serif;
+}
+
+.Logo{
+    height: auto;
+    max-width:100%;
+	border-style:solid;
+}
+
+
+#Welcome-Page{
+	padding:67px 0px 0px 0px;
+	margin:100px 0px 0px 0px;
+	display:block;
+	position:relative;
+}
+
+.Welcome{
+	border:solid green;
+	display:block;
+	position:relative;
+	padding:0px;
+	margin:0px;
+}
+
+.Video-Anime{
+	border:solid green;
+	display:block;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	position: relative;
+}
+.Video-Anime video{
+	max-width: 100%;
+	height:auto;
+	display:block;
+	padding:0px 25px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border:solid blue;
+	
+}
+
+.Video-credit{
+	border:solid red;
+	margin:10px 0px 0px 0px;
+	padding:0px;
+	display:block;
+	text-align:right;
+}
+
+.Video-credit p{
+	display:inline;
+	padding:0px;
+	margin:0px;
+	font-size:23px;
+}
+
+.Top-nav-bar{
+	display:inline-block;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	background-color:#333333;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.dropdown{
+	display:inline-block;
+	padding:0px;
+	margin:0px 50px 0px 0px;
+	width:160px;
+	border:solid black;
+}
+li{
+	list-style-type:none;
+}
+.tab,.tab2{
+	padding:15px 25px 15px 25px;
+	margin:0px;
+	display:block;
+	//border:solid green;
+	font-size:23px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+
+.dropdown2{
+	//border:solid yellow;
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+.link{
+	display:block;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+}
+.link li{
+	display:block;
+	font-size:23px;
+	padding:15px 25px 15px 25px;
+	margin:0px;
+	background-color:pink;
+}
+.link li a{
+	text-decoration:none;
+	color:white;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box5,.box5,.box6,.box7,.box8,.box9{
+	display:block;
+	margin:0px;
+	padding:0px;
+	//border:solid pink;
+}
+
+.link,.dropdown2{
+	display:none;
+	position:absolute;
+	
+} 
+
+No-width{
+	padding:0px;
+	margin:0px;
+}
+.box1:hover .link,.box2:hover .link,.box3:hover .link,.box4:hover .link,.box5:hover .link,.box6:hover .link,.box7:hover .link,.box8:hover .link,.box9:hover .link,.dropdown:hover .dropdown2 {
+	display:block;
+	width:150px;
+}
+
+.box1:hover{
+	padding-bottom:290px;
+}
+.box2:hover{
+	padding-bottom:290px;
+}
+.box3:hover{
+	padding-bottom:250px;
+}
+
+.box4:hover{
+	padding-bottom:240px;
+}
+
+.box5:hover{
+	padding-bottom:240px;
+}
+
+.box6:hover{
+	padding-bottom:666px;
+}
+
+
+#About-Page{
+	display:block;
+	padding:0px;
+	margin:264px 0px 0px 0px;
+	position:relative;
+	//border:solid red;
+}
+
+.Wikipedia-Anime,.Wikipedia-Anime-History{
+	padding:0px 0px 0px 0px;
+	margin:10px 0px 0px 0px;
+	display:block;
+	//border:solid green;
+}
+
+
+#About-Page .title h2{
+	padding:0px;
+	margin:0px 100px 43px 100px;
+	background-color:black;
+	display:block;
+	font-size:47px;
+	color:white;
+	text-align:center;
+}
+
+.header{
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	display:block;
+}
+
+.header h3{
+	color:white;
+	display:inline-block;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 4px;
+	//border:solid blue;
+	font-size:36px;
+	text-decoration:underline;
+}
+.Anime-info,.Anime-History-info{
+	padding:0px;
+	margin:20px 267px 0px 0px;
+	display:inline-block;
+	//border:solid green;
+}
+
+.Anime-info p,.Anime-History-info p{
+	padding:0px;
+	margin:0px 10px 0px 10px;
+	display:block;
+	font-size:24px;
+	line-height:49px;
+	//border:solid pink;
+	color:white;
+}
+.Anime-info p a:hover,.Anime-History-info p a:hover{
+	padding:0px;
+	margin:0px;
+	background-color:black;
+}
+
+.description-image{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	display:inline-block;
+	position: absolute;
+	right:0px;
+	//border:solid gray;
+}
+
+.description-image img{
+	padding:0px;
+	margin:0px;
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+
+.description-image p{
+	padding:0px;
+	margin:6px 0px 10px 0px;
+	width:200px;
+	text-align:center;
+	//border:solid yellow;
+	font-size:19px;
+}
+
+.description-image p a{
+	text-decoration:none;
+	color:white;
+	margin:0px;
+	padding:0px;
+}
+.description-image p a:hover{
+	margin:0px;
+	padding:0px;
+	background-color:black;
+}
+.cursor{
+	cursor:pointer;
+}
+
+/*--------------------------------------------------*/
+/*Attibutes Page*/
+#Welcome-Page2{
+	padding:67px 0px 0px 0px;
+	margin:100px 0px 0px 0px;
+	display:block;
+	position:relative;
+	z-index:2;
+}
+.Top-nav-bar-Attributes{
+	//border:solid orange;
+	padding:0px 5px 0px 0px;
+	margin:0px;
+}
+
+#Attributes-Page{
+	padding:0px 0px 0px 0px ;
+	margin:346px 25px 0px 25px;
+	display:block;
+	position: relative;
+	border:solid red;
+	z-index:1;
+}
+.Attribute{
+	margin:0px 10px 0px 10px;
+	padding:0px 0px 0px 0px;
+	border:solid black;
+}
+.Attributes-Info header{
+	margin:0px;
+	padding:0px;
+	border-bottom:solid green 6px;
+}
+.Attributes-Info header h2{
+	margin:0px 5px 0px 5px;
+	padding:0px;
+	text-align:center;
+	font-size:34px;
+}
+
+.Attributes-Info p{
+	margin:0px;
+	padding:0px;
+	font-size:21px;
+}
+
+.Technique-info{
+	padding:0px 0px 340px 0px;
+	margin:23px 0px 0px 0px;
+}
+.Technique-info header{
+	margin:0px 627px 0px 0px;
+	padding:0px;
+	border:solid blue;
+}
+.Technique-info header h3{
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-size:30px;
+}
+.Technique-info .info{
+	margin:0px;
+	padding:0px;
+	width:58%;
+	float:left;
+}
+.Technique-info .info p{
+	margin:0px;
+	padding:0px;
+	line-height:30px;
+	font-size:19px;
+}
+.Technique-info .images{
+	float:left;
+	top:0px;
+	width:38%;
+	border:solid green;
+}
+.Technique-info .images div{
+	display:inline-block;
+	margin:0px 6px 10px 6px;
+	padding:0px;
+}
+.Technique-info .images div img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+#Reference-Page{
+	margin:25px 0px 0px 0px;
+	padding:0px;
+}
+#Reference-Page header{
+	margin:0px 627px 0px 0px;
+	padding:0px;
+	border:solid blue;
+}

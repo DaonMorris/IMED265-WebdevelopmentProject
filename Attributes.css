@@ -1,0 +1,159 @@
+
+}
+
+.Title{
+    color: white;
+	position: absolute;
+    margin-left:170px;
+    margin-top:76px;
+	font-size: 58px;
+	font-family:sans-serif;
+	text-decoration:none;
+	}
+    
+
+.Logo{
+    height: 120px;
+    width: 124px;
+	margin-bottom:68px;
+	border-style:solid;
+	border-image:url("https://i.postimg.cc/85hhjLWr/1920px-Lilyu-Crying-svg.png";);
+}
+
+/* This is menu coded for all page */
+#Menu{
+	//border-style:solid;
+	border-color:blue;
+	padding-bottom:100px;
+	margin:100px 0px 0px 0px;
+	position:relative;
+	
+}
+
+#meun ul{
+	position: absolute;
+	-position:sticky;
+	top:0px;
+	right:100px;
+	margin-left:0px;
+}
+
+
+li{
+	float:left;
+	margin-left:65px;
+	text-align:center;
+	list-style-type:none; 
+	font-size:21px;
+	margin-top:15px;
+}
+
+.last-child a:last-child{
+	float:right;
+	position:absolute;
+	padding-left:15px;	
+	padding-right:0px;
+}
+
+li a{
+	text-decoration:underline;
+	color:white;
+	display:block;
+	padding: 4px 0px 4px 4px;
+	margin-left:0px;
+	font-size:25px;
+}
+
+.dropdown{
+	-border-style:solid;
+	border-color:green;
+}
+
+.dropdown:hover .drop{
+	background-color:blue;
+	display:block;
+}
+
+
+.link{
+	position:absolute;
+	display:none;
+}
+
+.dropdown:hover .link{
+	display:block;
+}
+
+
+
+.project .drop2{
+	border-color:aqua;
+	-border-style:solid;
+	display:block;
+	margin:20px 0px 0px 0px;
+}
+
+.project:hover{
+	margin-bottom:110px;
+	display:block;
+}
+
+.project:hover .drop2{
+	background-color:black;
+}
+
+.drop2:hover .link2{
+	display:block;
+}
+.link2 a{
+	font-size:21px;
+	padding-right:40px;
+	text-align:underline;
+}
+.link2 a:hover{
+	background-color:blue;
+	display:block;
+	min-width:100%;
+	padding-right:0px;
+	margin:0px 0px 0px 0px;
+}
+
+
+.link2{
+	position:absolute;
+	display:none;
+	-margin-top:0px;
+	z-index:2;
+}
+
+.project:hover .link2{
+	display:block;
+}
+
+/* Some main point of Techique */
+#MainPoint, h1, h2, p{
+	color:black;
+}
+
+#MainPoint{
+	margin-top:120px;
+	-border-top-style:solid;
+}
+
+#MainPoint div, h2{
+	margin-left:10px;
+	margin-top:34px;
+}
+
+#mainPoint p{
+	margin-right:389px;
+	line-height:26px;
+}
+
+#MainPoint h1{
+	text-align:center;
+	border-bottom-style:solid;
+	margin:0px 150px 76px 150px;
+	
+}
+

@@ -1,729 +1,473 @@
 
 @font-face{
-	src:url("fonts/Gideon_Roman/GideonRoman-Regular.ttf");
-	font-family:font1;
-		
+src:url("fonts/Gideon_Roman/GideonRoman-Regular.ttf";);
+	font-family:font1;		
 }
 
 /*Testing*/
 body{
     background-color:#333333;
     opacity: 1;
-	padding-bottom:0px;
+	padding:0px 0px 0px 0px;
 	
 }
-.Title {
-    color: white;
-	position: absolute;
-    margin-left:170px;
-    margin-top:76px;
-	font-size: 58px;
-	font-family:sans-serif;
-}
-
-.Logo{
-    height: 120px;
-    width: 124px;
-	border-style:solid;
-	border-image:url("https://i.postimg.cc/85hhjLWr/1920px-Lilyu-Crying-svg.png";);
-}
-	
-	/*Creating a video and meun bar bpx*/
-	/*Put the Sticky Property under ul-tag*/
-
-#Introdution .Video{
-	-border-color:red;
-	-border-style:solid;
-	overflow:hidden;
-	margin:100px 0px 650px 0px;
-	padding:140px 0px 0px 0px;
-	-position:relative;
-	
-}
-
-
- .clips{
-	border-style:solid;
-	border-color:black;
-	padding-bottom:587px;
-	margin-top:5px;
-	color:white;	
-}
-
-
-.Meun{
-	-border-style:solid;
-	border-color:aqua;
-	padding-bottom:200px;
-	padding-right:100px;
-	position:absolute;
-	right:10px;
-	top:350px;
-	height:1300px;
-}
-
-ul{
-	-border-style:solid;
-	border-color:green;
-	margin-left:0px;
-}
-
-
-li{
-	float:left;
-	list-style-type:none;
-}
-
-li a{
-	display:block;
-	margin-right:100px;
-	text-decoration:none;
-	color:black;
-}
-
-.dropdown:hover .capture{
-	background-color:red;
-}
-.link,.link2,.link3,.link4{
-	border-style:solid;
-}
-.link li, .link2 li,.link3 li,.link4 li{
-	float:none;
-	list-style-type:none;
-	text-decoration: none;
-	-background-color:red	
-}
-
-/*class="Technique" coded*/
-
-.dropdown2:hover .Technique{
-	display:block;
-	background-color:green;
-}
-
-.link{
-	position:absolute;
-	display:none;
-}
-
-.box:hover{
-	padding-bottom:90px;
-	padding-top:13px;
-	z-index:1;
-}
-
-.link li a:hover{
-	display:block;
-	background-color:purple;
-}
-
-.box:hover .link{
-	display:block;
-}
-
-/*class="Characters" codes*/
-
-.dropdown2:hover .Characters{
-	display:block;
-	background-color:fuchsia;
-}
-
-.link2{
-	position:absolute;
-	display:none;
-}
-
-.box2:hover{
-	padding-bottom:90px;
-	padding-top:13px;
-	z-index:2;
-}
-
-.link2 li a:hover{
-	display:block;
-	background-color:forestgreen;
-}
-
-.box2:hover .link2{
-	display:block;
-}
-
-/* This is class="Music" codes*/ 
-
-.dropdown2:hover .Music{
-	display:block;
-	background-color:salmon;
-}
-
-.link3{
-	position:absolute;
-	display:none;
-}
-
-.box3:hover{
-	padding-bottom:90px;
-	padding-top:13px;
-	z-index:3;
-}
-
-.link3 li a:hover{
-	display:block;
-	background-color:forestgreen;
-}
-
-.box3:hover .link3{
-	display:block;
-}
-
-/*This is class="Genres" codes (Think about this main point)*/ 
-
-.dropdown2:hover .Genres{
-	display:block;
-	background-color:salmon;
-}
-
-.link4{
-	position:absolute;
-	display:none;
-}
-
-.box4:hover{
-	padding-bottom:99px;
-	padding-top:13px;
-	z-index:4;
-}
-
-.link4 li a:hover{
-	display:block;
-	background-color:forestgreen;
-}
-
-.box4:hover .link4{
-	display:block;
-}
-
-/*Industry*/
-	/*class="Markets"*/
-.dropdown2:hover .Markets{
-	display:block;
-	background-color:salmon;
-}
-
-.link5{
-	position:absolute;
-	display:none;
-}
-
-.box5:hover{
-	padding-bottom:80px;
-	padding-top:13px;
-	z-index:4;
-}
-
- .link5 li a:hover{
-	display:block;
-	background-color:yellow;
-}
-
-.box5:hover .link5{
-	display:block;
-}
-
-/*class="Awards" codes*/
-.dropdown2:hover .Awards{
-	display:block;
-	background-color:salmon;
-}
-
-.link6{
-	position:absolute;
-	display:none;
-}
-
-.box6:hover{
-	padding-bottom:290px;
-	padding-top:10px;
-	z-index:4;
-}
-
-.link6 li a{
-	margin-bottom:10px;
-}
- .link6 li a:hover{
-	display:block;
-	background-color:blue;
-}
-
-.box6:hover .link6{
-	display:block;
-}
-
-/*History*/
-	/*class="Precursors codes*/
-
-/* No need for this selector .link7....
-.link7{
-	position:absolute;	display:none;
-}
-....*/
-
-.box7,.box8,.box9{
-	padding-bottom:10px;
-	padding-top:10px;
-	z-index:4;
-}
-
-.box7 a:hover,.box8 a:hover, .box9 a:hover{
-	background-color:blue;
-	display:block;
-}
-
-/* No need for this selector .link7....
-.link7 li a{
-	margin-bottom:10px;
-}
-/* No need for this selector .link7....
-
- .link7 li a:hover{
-	display:block;
-	background-color:blue;
-}
-/* No need for this selector .link7....
-
-.box7:hover .link6{
-	display:block;
-}
-....*/
-
-/* Fix the menu Bar. Space Gap close the menu
-ul{
-	position: absolute;
-	position:sticky;
-	top:0px;	
-}
-
-
-li{
-	float:left;
-	margin-left:65px;
-	text-align:center;
-	list-style-type:none; 
-	font-size:21px;
-	margin-top:15px;
-}
-
-.last-child a:last-child{
-	float:right;
-	position:absolute;
-	padding-left:20px;	
-	padding-right:0px;
-}
-
-li a{
-	-text-decoration:none;
-	background-color:#333333;
-	color:white;
-	display:block;
-	padding: 4px 0px 0px 0px;
+#Logo{
+	//border:solid red;
 	margin:0px;
-	font-size:25px;
+	padding:0px 0px 500px 0px;
 }
-
-
-.dropdown:hover .drop{
-	background-color:blue;
-	display:block;
+#Logo a{
+	//border:solid red;
+	margin:0px;
+	padding:0px 0px 500px 0px;
+	color:white;
+	text-decoration:none;
 }
-
-
-.link{
-	position:absolute;
-	display:none;
-}
-
-.dropdown:hover .link{
-	display:block;
-}
-
-
-
-.project .drop2{
-	border-color:aqua;
-	-border-style:solid;
-	display:block;
+#Logo header{
 	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:right;
+	width:85%;
+	//border:solid green;
 }
-
-.project:hover{
-	margin:0px 0px 110px 0px;
-	display:block;
-}
-
-.project:hover .drop2{
-	background-color:black;
-}
-
-.drop2:hover .link2{
-	display:block;
-}
-.link2 a{
-	font-size:21px;
-	text-align:underline;
+#Logo header h1{
+	margin:115px 0px 0px 20px;
+	padding:0px;
+	font-size:48px;
+	color:white;
 	
 }
-.link2 a:hover{
-	background-color:blue;
-	display:inline-block;
-	width:100%;
+#Logo .logo-image{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	float:left;
+	width:15%;
+	//border:solid yellow;
+}
+#Logo .logo-image img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+
+#top-bar-menu{
+	padding:0px;
+	margin:0px;
+	border:solid green;
+}
+#top-bar-menu .menu{
 	margin:0px 0px 0px px;
+	padding:0px;
+	border:solid yellow;
 }
-
-
-.link2{
-	position:absolute;
-	display:none;
-	margin-bottom:0px;
-	z-index:2;
-	text-align:left;
+#top-bar-menu .menu div{
+	display:inline-block;
+	border:solid pink;
+	margin:0px 36px 0px 0px;
+	padding:0px;
 }
-
-.project:hover .link2{
-	display:block;
+/*--------------------------------------------------*/
+/*Attibutes Page*/
+*{
+	box-sizing:border-box;
 }
----*/ 
-
-/*The below is the information about Anime, which is fron the Anime.com/wikipedia*/
-#AboutPage{
-	-border-style:solid;
-	border-color:green;
-	overflow:hidden;
-	position: relative;
-	-padding-bottom:500px;
+#Attributes-page{
+	margin:0px 26px 0px 26px;
+	padding:0px;
+	//border: solid red;
+}
+.Attributes-info{
+	margin:0px 0px 36px 0px;
+	padding:0px;
+	//border:solid blue;
+}
+.Attributes-info header{
+	margin:0px 0px 36px 0px;
+	padding:13px 0px 13px 0px;
+	background-color:Black;
+}
+.Attributes-info header h2{
+	font-size:39px;
 	color:white;
+	padding:0px;
+	margin:0px;
+	text-align:center;
 }
-
-
-
-.container1{
-	margin:10px 180px 10px 10px;
-	-border-style:solid;
-	border-color:green;
-	overflow:hidden;	
-}
-
-.container1 div{
-	line-height:28px;
-}
-
-.container1 div p{
-	font-size:20px;
-}
-
-.techique{
-	text-decoration: underline;
-}
-
-
-
-#represent{
-	-border-style:solid;
-	border-color:brown;
-	position:absolute;
-	top:0px;
-	right:0px;
-	padding-left:0px;
-	padding-bottom:0px;
-}
-
-#represent img{
-	left:0px;
-	height:200px;
-	width:150px;
-	margin: 10px 0px 10px 10px;
-}
-
-.description, p{
-	-border-style:solid;
-	position:relative;
-}
-
-.description p{
-	position:absolute;
-	top:176px;
-	left:6px;
-	background-color:black;
-}
-
-.description2{
-	margin:10px 0px 0px 0px;
-}
-
-
-/* Social Media onthe sidebar*/
-#Social-media-link{
-	margin-top:1440px;
-	right:10px;
-	top:0px;
-	position:absolute;
-	height:1440px;	
-	-background-color:red;
-}
-
-
-.Box{
-	-background-color:aquamarine;
-	top:290px;
-	position:sticky;
-}
-
-.Media-Logo{
-	height:30px;
-	-position:relative;
-	Left:0px;
-	-padding:1px;
-	opacity:74%;
-}
-
-
-div a:active{
-	-background-color:#2B78E4;
-	-padding-top:35px;
-}
-
-
-/*This is for the Arrtibutes.html page*/
-
-#Attributes .Meun2{
-	-border-style:solid;
-	border-color:aqua;
-	-padding-bottom:200px;
-	padding-right:100px;
-	position:absolute;
-	right:10px;
-	top:320px;
-}
-
-#Attributes .Meun2 .stop{
-	position:relative;
-	top:0px;
-}
-
-
-#MainPoint{
+.Attributes-info p{
+	margin:0px;
+	padding:0px;
 	color:white;
-	margin-top:397px;
-	-border-top-style:solid;
-	
+	font-size:23px;
+	line-height:29px;
+	text-align:center;
+	text-decoration:underline;
 }
-
-#MainPoint h2{
-	border-top-style:solid;
-	border-color:black;
-	padding-top:30px;
-	border-top-width:9px;
+.Attributes-info  a{
+	color:white
+}
+.Attributes-info p span a:hover{
+	color:#2B78E4;
+}
+.Technique-info{
+	//border:solid blue;
+	margin:0px 0px 423px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Technique-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Technique-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
 	font-size:32px;
 }
-
-#MainPoint div, h2{
-	margin-left:10px;
-	margin-top:20px;
+.Technique-info .info{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 97px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
 }
-
-#MainPoint p{
-	margin-right:389px;
-	line-height:26px;
-	font-size:20px;
+.Technique-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
 }
-
-#MainPoint h1{
-	text-align:center;
-	-border-bottom-style:solid;
-	margin:0px 150px 0px 150px;
-	font-size:45px;
-	
+.Technique-info .info p span:hover{
+	color:#CF2A27
 }
-
-
-
-
-
-
-/*Creating the Bar Meun
-
-#Menu-Bar .Meun{
-	border-color:fuchsia;
-	border-style:solid;
-	margin-top:100px;
-	padding-bottom:50px;
-	margin-left:580px;
-	position:relative;
+.Technique-info .images{
+	padding:0px;
+	margin:0px 0px 0px 100px;
+	border:solid green;
+	float:left;
+	width:37%;
 }
-
-.Meun{
-	height:100px;
-}
---*/
-/* This design is toward the back-up idea for the menu
-
-li a:hover, .dropdown:hover drop{
-	background-color:white;
-	color:black;
-}
-
-.dropdown{
+.Technique-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 19px 56px;
+	border:solid pink;
 	display:inline-block;
 }
-
-.link{
-	position:absolute;
-	display:none;
-	min-width:0px;
-	z-index:1;
-}
-
-.link a{
-	display:block;
-	text-decoration: none;
-	padding: 6px 1px 6px 1px;	
-}
-
-.link a:hover{
-	background-color:black;
+.Technique-info .images div a{
 	color:white;
+	text-decoration:none;
 }
-
-.dropdown:hover .link{
-	display:block;
+.Technique-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
 }
-
-*/
-
-/*This section is under Added New Character
-
-#NewCharacter{
-	-padding-top:310px;
-	font-size:36px;
+.Technique-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
 	color:white;
-	margin-right:0px;
-	padding-bottom:100px;
-}
-
-#NewCharacter h2{
-	border-bottom-style:solid;
-	Padding-right:10px;
-	text-align:left;
-	font-size:31px;
-}
-
-#NewCharacter h3 a{
-	color:inherit;
-}
-
-#NewCharacter .Character1{
-	margin-top:50px;
-	
-}
-/*How clumsy you are, Miss Ueno*
-.Character1{
-	-border-style:solid;
-	position: relative;
-	border-bottom-style:solid;
-}
-
-.Image1{
-	width:239px;
-	height:234px;
-	margin-left:10px;
-}
-
-.container{
-	border-left-style:solid;
-	position: absolute;
-	top:0px;
-	right:30px;
-	margin-left:253px;	
-}
-
-.ShowTitle{
-	
-	font-family:fantasy;
-	font-size:23px;
 	text-align:center;
+	font-size:19px;
+	width:170px;
+}
+.Technique-info .images div p :hover{
+	color:#2B78E4;
+}
+.Technique-info .images div p:active{
+	color:#CF2A27;
+}
+.Technique-info .images div p span{
+	color:#CF2A27;
+}
+.Characters-info{
+	//border:solid blue;
+	margin:0px 0px 643px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Characters-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Characters-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+}
+.Characters-info .info{
+	padding:0px;
+	margin:0px 0px 47px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Characters-info .info p{
+	padding:0px;
+	margin:0px 0px 27px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+}
+.Characters-info .info p span:hover{
+	color:#CF2A27
+}
+.Characters-info .images{
+	padding:0px;
+	margin:0px 0px 0px 10px;
+	//border:solid green;
+	float:left;
+	width:40%;
+}
+.Characters-info .images div{
+	padding:0px;
+	margin:0px 14px 19px 14px;
+	border:solid pink;
+	display:inline-block;
+}
+.Characters-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Characters-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	width:170px;
+}
+.Characters-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Characters-info .images div p :hover{
+	color:#2B78E4;
+}
+.Characters-info .images div p:active{
+	color:#CF2A27;
+}
+.Characters-info .images div p span{
+	color:#CF2A27;
+}
+
+.Music-info{
+	//border:solid blue;
+	margin:0px 0px 268px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Music-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Music-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+}
+.Music-info .info{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 47px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Music-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+}
+.Music-info .info p span:hover{
+	color:#CF2A27
+}
+.Music-info .images{
+	padding:0px;
+	margin:0px 0px 0px 10px;
+	//border:solid green;
+	float:left;
+	width:40%;
+}
+.Music-info .images div{
+	padding:0px;
+	margin:0px 14px 19px 14px;
+	border:solid pink;
+	display:inline-block;
+}
+.Music-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Music-info .images div img{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Music-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	width:170px;
+}
+.Music-info .images div p :hover{
+	color:#2B78E4;
+}
+.Music-info .images div p:active{
+	color:#CF2A27;
+}
+.Music-info .images div p span{
+	color:#CF2A27;
+}
+.Genres-info{
+	//border:solid blue;
+	margin:0px 0px 890px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Genres-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Genres-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+}
+.Genres-info .info{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Genres-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+}
+.Genres-info .info p span:hover{
+	color:#CF2A27
+}
+.Genres-info .images{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	//border:solid green;
+	float:left;
+	width:40%;
+}
+.Genres-info .images div{
+	padding:0px;
+	margin:0px 14px 27px 14px;
+	border:solid pink;
+	display:inline-block;
+}
+.Genres-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Genres-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Genres-info .images div p{
+	margin:6px 0px 0px 30px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	width:100px;
+}
+.Genres-info .images div p :hover{
+	color:#2B78E4;
+}
+.Genres-info .images div p:active{
+	color:#CF2A27;
+}
+.Genres-info .images div p span{
+	color:#CF2A27;
+}
+/*Reference section*/
+#Reference{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	//border:solid red;
+}
+#Reference header{
+	margin:0px;
+	padding:0px;
+	//border:solid blue;
+	border-bottom:solid black 6px;
+}
+#Reference header h2{
+	margin:0px 243px 0px 193px;
+	padding:0px;
+	text-align:center;
+	//border:solid pink;
+	font-size:27px;
+	font-weight:800;
+	letter-spacing:15px;
 	color:white;
 }
-	
-.Description{
-	font-family:fantasy;
-	font-size:18px;
-	margin-left:100px;
-	padding-bottom:0px;
-	line-height:50px;
-	color:white;	
-	}
-
-
-/*Free! anime show*
-.Character2{
-	border-bottom-style:solid;
-	padding-top:265px;
-	position: relative;	
+.reference-info{
+	margin:0px 12px 0px 12px;
+	padding:0px;
+	//border:solid yellow;
 }
-
-.image2{
-	width:239px;
-	height:234px;
-	margin-left:10px;
-	position:absolute;
-	top:20px;
+.reference-info .refer1{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
 }
-
-.container3{
-	border-left-style:solid;
-	position:absolute;
-	top:0px;
-	right:30px;
-	margin-left:253px; 
-	margin-top:20px;
-	height:236px;
-}
-
-.Description2{
-	font-family:fantasy;
+.reference-info .refer1 a{
 	color:white;
-	margin-left:100px;
-	line-height:30px;
-	font-size:18px;
+	text-decoration:none;
 }
-
-/*JoJo Bizarre Adventure*
-.Character3{
-	border-bottom-style:solid;
-	padding-bottom:10px;
-	position:relative;
-	
+.reference-info .refer1 p{
+	margin:0px 0px 0px 68px;
+	padding:0px;
+	width:500px;
+	line-height: 26px;
+	font-size:16px;
 }
-
-.image3{
-	width:239px;
-	height:234px;
-	margin-top:20px;
+.reference-info .refer2{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px 0px;
 }
-
-.container4{
-	border-left-style:solid;
-	right:30px;
-	position: absolute;
-	top:20px;
-	font-family: fantasy;
-	font-size:18px;
-	margin-left:250px;
-	height:246px;
+.reference-info .refer2 p{
+	margin:0px 0px 0px 68px;
+	padding:0px;
+	width:500px;
+	line-height: 27px;
+	font-size:16px;
 }
-	
-.Description3{
-	margin-left:100px;
+.reference-info .refer2 a{
 	color:white;
+	text-decoration:none;
 }
-
-/* Social Media onthe sidebar*/
-
