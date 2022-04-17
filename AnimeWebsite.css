@@ -1,20 +1,22 @@
 
 @font-face{
-src:url("fonts/Gideon_Roman/GideonRoman-Regular.ttf";);
-	font-family:font1;		
+font-family:'fontName';
+src:url("fonts/Signika_Negative/static/SignikaNegative-Regular.ttf");
 }
 
 /*Testing*/
 body{
     background-color:#333333;
-    opacity: 1;
 	padding:0px 0px 0px 0px;
-	
-}
+	background-image:url("Image/HomePage Image/background_anime.gif");
+	background-repeat:no-repeat;
+	background-blend-mode:overlay;
+	background-size: auto;
+} 
 #Logo{
-	//border:solid red;
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 500px 0px;
+	border:solid red;
+	margin:0px 0px 500px 0px;
+	padding:0px 0px 0px 0px;
 }
 #Logo a{
 	//border:solid red;
@@ -35,7 +37,7 @@ body{
 	padding:0px;
 	font-size:48px;
 	color:white;
-	
+	font-family:fontName;	
 }
 #Logo .logo-image{
 	margin:0px 0px 0px 0px;
@@ -57,26 +59,27 @@ body{
 	//border:solid green;
 }
 #top-bar-menu .menu{
-	margin:0px 21px 0px 21px;
+	margin:0px 50px 0px 50px;
 	padding:0px 0px 0px 0px;
 	//border:solid yellow;
-	border-bottom:solid black 4px;
+	background-color: black;
 }
 #top-bar-menu .menu div{
 	display:inline-block;
-	border:solid black 4px;
-	border-bottom:none;
-	margin:0px 0px 0px 106px;
+	border-right:solid white 8px;
+	border-left:solid white 8px;
+	margin:0px;
 	padding:0px;
-	width:246px;
+	width:314px;
 }
+
 #top-bar-menu .menu div:hover{
 	display:inline-block;
-	margin:0px 0px 0px 106px;
+	margin:0px 0px 0px 0px;
 	padding:0px;
 	width:246px;
 	opacity:75%;
-	background-color:black;
+	width:314px;
 	
 }
 #top-bar-menu .menu div h2{
@@ -92,26 +95,167 @@ body{
 #Youtube-Video{
 	padding:0px;
 	margin:0px 0px 0px 0px;
-	border:solid red;
+	//border:solid red;
 	position: relative;
 }
 #Youtube-Video div{
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 0px 68px;
-	border:solid blue;
+	margin:0px 68px 0px 68px;
+	//border:solid blue;
 }
 #Youtube-Video div video{
-	margin:0px 0px 0px 0px;
+	margin:0px;
 	padding:0px;
 	max-width:100%;
 	height:auto;
 }
-
+#Youtube-Video .youtube-source{
+	margin:0px 68px 0px 68px;
+	padding:0px;
+	//border:solid green;
+}
 .youtube-source p{
+	margin:3px 6px 3px 6px;
+	padding:0px;
+	//border:solid red;
+	text-align:right;
+	font-size:18px;
+	font-family:sans-serif;
+}
+#About-Page{
+	margin:234px 0px 0px 0px;
+	padding:0px;
+	//border:solid red;
+}
+#About-Page header{
+	margin:0px 23px 5px 23px;
+	padding:0px;
+	//border:solid green;
+}
+#About-Page header h2{
+	margin:0px 0px 0px 0px;
+	padding:8px 0px 0px 0px;
+	background-color:black;
+	text-align:center;
+	font-size:36px;
+	color:white;
+	font-family:sans-serif;
+	text-decoration:underline;
+	
+}
+#About-Page .About-info{
+	margin:36px 23px 925px 23px;
+	//padding:0px 0px 935px 0px;
+	border:solid blue;
+}
+#About-Page .About-info .Wikipedia{
+	float:left;
+	width:83%;
+	//border:solid orange;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime{
+	margin:0px;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime header{
 	margin:0px;
 	padding:0px;
-	border:solid red;
-	text-align:right;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime header h3{
+	margin:5px 0px 5px 0px;
+	padding:0px;
+	display:inline-block;
+	font-size:28px;
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime .Wikipedia-Anime-info{
+	margin:0px;
+	padding:0px;
+	//border:solid red;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime .Wikipedia-Anime-info p{
+	margin:0px;
+	padding:0px;
+	line-height:29px;
+	font-size:21px;
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime .Wikipedia-Anime-info a{
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-Anime .Wikipedia-Anime-info p span a:hover{
+	color:#2B78E4;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime{
+	margin:16px 0px 0px 0px;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime header{
+	margin:0px;
+	padding:0px;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime header h3{
+	margin:5px 0px 5px 0px;
+	padding:0px;
+	display:inline-block;
+	font-size:28px;
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime .Wikipedia-HistoryOfAnime-info{
+	margin:0px;
+	padding:0px;
+	//border:solid red;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime .Wikipedia-HistoryOfAnime-info p{
+	margin:0px;
+	padding:0px;
+	line-height:29px;
+	font-size:21px;
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime .Wikipedia-HistoryOfAnime-info a{
+	color:white;
+}
+#About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime .Wikipedia-HistoryOfAnime-info p span a:hover{
+	color:#2B78E4;
+}
+#About-Page .images{
+	float:left;
+	width:17%;
+	//border:solid orange;
+	margin:45px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+#About-Page .images div{
+	margin:0px 0px 12px 24px;
+	padding:0px 0px 0px 0px;
+	//border:solid pink;
+	display:block;
+}
+#About-Page .About-info .images div img{
+	max-width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+#About-Page .About-info .images div img:hover{
+	max-width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	opacity:85%;
+}
+#About-Page .About-info .images div p{
+	padding:0px 0px 0px 0px;
+	margin:0px 10px 0px 0px;
+	//border:solid blue;
+	font-size:16px;
+	font-family: sans-serif;
+	text-align:center;
+}
+#About-Page .About-info .images div a:hover{
+	color:#2B78E4;
+}
+#About-Page .About-info .images div a{
+	color:white;
 }
 
 /*--------------------------------------------------*/
@@ -189,7 +333,7 @@ body{
 	line-height:29px;
 }
 .Technique-info .info p span:hover{
-	color:#CF2A27
+	color:#CF2A27;
 }
 .Technique-info .images{
 	padding:0px;
