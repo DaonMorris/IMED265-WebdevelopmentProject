@@ -3,6 +3,10 @@
 font-family:'fontName';
 src:url("fonts/Signika_Negative/static/SignikaNegative-Regular.ttf");
 }
+@font-face{
+	font-family:'Comfortaa-Medium';
+	src:url("fonts/Comfortaa/static/Comfortaa-Medium.ttf")
+}
 
 /*Testing*/
 body{
@@ -14,9 +18,9 @@ body{
 	background-size: auto;
 } 
 #Logo{
-	border:solid red;
-	margin:0px 0px 500px 0px;
-	padding:0px 0px 0px 0px;
+	//border:solid red;
+	//margin:0px 0px 424px 0px;
+	padding:0px 0px 424px 0px;
 }
 #Logo a{
 	//border:solid red;
@@ -37,7 +41,7 @@ body{
 	padding:0px;
 	font-size:48px;
 	color:white;
-	font-family:fontName;	
+	font-family:'Trying';	
 }
 #Logo .logo-image{
 	margin:0px 0px 0px 0px;
@@ -55,7 +59,7 @@ body{
 
 #top-bar-menu{
 	padding:0px;
-	margin:0px 20px 38px 20px;
+	margin:0px 20px 239px 20px;
 	//border:solid green;
 }
 #top-bar-menu .menu{
@@ -70,7 +74,7 @@ body{
 	border-left:solid white 8px;
 	margin:0px;
 	padding:0px;
-	width:314px;
+	width:250px;
 }
 
 #top-bar-menu .menu div:hover{
@@ -79,7 +83,7 @@ body{
 	padding:0px;
 	width:246px;
 	opacity:75%;
-	width:314px;
+	width:250px;
 	
 }
 #top-bar-menu .menu div h2{
@@ -87,6 +91,7 @@ body{
 	padding:0px;
 	font-size:24px;
 	text-align:center;
+	font-family:sans-serif;
 }
 #top-bar-menu .menu div a{
 	color:white;
@@ -120,10 +125,17 @@ body{
 	//border:solid red;
 	text-align:right;
 	font-size:18px;
-	font-family:sans-serif;
+	font-family:'Comfortaa-Medium';
+}
+.youtube-source p a{
+	color:white;
+}
+.youtube-source p a:hover{
+	opacity: 65%;
+	color:#2B78E4;
 }
 #About-Page{
-	margin:234px 0px 0px 0px;
+	margin:364px 0px 0px 0px;
 	padding:0px;
 	//border:solid red;
 }
@@ -134,13 +146,13 @@ body{
 }
 #About-Page header h2{
 	margin:0px 0px 0px 0px;
-	padding:8px 0px 0px 0px;
+	padding:13px 0px 13px 0px;
 	background-color:black;
 	text-align:center;
 	font-size:36px;
 	color:white;
-	font-family:sans-serif;
-	text-decoration:underline;
+	font-family:'Comfortaa-Medium';
+	letter-spacing:12px;
 	
 }
 #About-Page .About-info{
@@ -166,6 +178,8 @@ body{
 	display:inline-block;
 	font-size:28px;
 	color:white;
+	font-family:sans-serif;
+	text-decoration:underline;
 }
 #About-Page .About-info .Wikipedia .Wikipedia-Anime .Wikipedia-Anime-info{
 	margin:0px;
@@ -259,7 +273,7 @@ body{
 }
 
 /*--------------------------------------------------*/
-/*Attibutes Page*/
+/*Attibutes.html file*/
 *{
 	box-sizing:border-box;
 }
@@ -269,7 +283,7 @@ body{
 	//border: solid red;
 }
 .Attributes-info{
-	margin:0px 0px 36px 0px;
+	margin:0px 0px 76px 0px;
 	padding:0px;
 	//border:solid blue;
 }
@@ -284,6 +298,8 @@ body{
 	padding:0px;
 	margin:0px;
 	text-align:center;
+	font-family:'Comfortaa-Medium';
+	letter-spacing:12px;
 }
 .Attributes-info p{
 	margin:0px;
@@ -293,6 +309,7 @@ body{
 	line-height:29px;
 	text-align:center;
 	text-decoration:underline;
+	font-family:sans-serif;
 }
 .Attributes-info  a{
 	color:white
@@ -316,10 +333,11 @@ body{
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
+	color:white;
 }
 .Technique-info .info{
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 97px 0px;
+	margin:8px 0px 97px 0px;
 	//border:solid green;
 	float:left;
 	width:53%;
@@ -331,21 +349,22 @@ body{
 	color:white;
 	font-size:19px;
 	line-height:29px;
+	font-family:sans-serif;
 }
 .Technique-info .info p span:hover{
 	color:#CF2A27;
 }
 .Technique-info .images{
 	padding:0px;
-	margin:0px 0px 0px 0px;
-	border:solid green;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
 	float:left;
 	width:47%;
 }
 .Technique-info .images div{
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 14px 117px;
-	border:solid pink;
+	border:solid black;
 	display:inline-block;
 }
 .Technique-info .images div img{
@@ -391,10 +410,11 @@ body{
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
+	color:white;
 }
 .Characters-info .info{
 	padding:0px;
-	margin:0px 0px 47px 0px;
+	margin:8px 0px 47px 0px;
 	//border:solid green;
 	float:left;
 	width:53%;
@@ -406,21 +426,22 @@ body{
 	color:white;
 	font-size:19px;
 	line-height:29px;
+	font-family:sans-serif;
 }
 .Characters-info .info p span:hover{
 	color:#CF2A27
 }
 .Characters-info .images{
 	padding:0px;
-	margin:0px 0px 0px 0px;
-	border:solid green;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
 	float:left;
 	width:47%;
 }
 .Characters-info .images div{
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 14px 117px;
-	border:solid pink;
+	border:solid black;
 	display:inline-block;
 }
 .Characters-info .images div img{
@@ -467,10 +488,12 @@ body{
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
+	color:white;
+	
 }
 .Music-info .info{
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 47px 0px;
+	margin:8px 0px 47px 0px;
 	//border:solid green;
 	float:left;
 	width:53%;
@@ -482,21 +505,22 @@ body{
 	color:white;
 	font-size:19px;
 	line-height:29px;
+	font-family:sans-serif;
 }
 .Music-info .info p span:hover{
 	color:#CF2A27
 }
 .Music-info .images{
 	padding:0px;
-	margin:0px 0px 0px 0px;
-	border:solid green;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
 	float:left;
 	width:47%;
 }
 .Music-info .images div{
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 14px 117px;
-	border:solid pink;
+	border:solid black;
 	display:inline-block;
 }
 .Music-info .images div a{
@@ -542,6 +566,8 @@ body{
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
+	color:white;
+	
 }
 .Genres-info .info{
 	padding:0px 0px 0px 0px;
@@ -553,25 +579,27 @@ body{
 }
 .Genres-info .info p{
 	padding:0px;
-	margin:0px 0px 0px 0px;
+	margin:8px 0px 0px 0px;
 	color:white;
 	font-size:19px;
 	line-height:29px;
+	font-family:sans-serif;
+	
 }
 .Genres-info .info p span:hover{
 	color:#CF2A27
 }
 .Genres-info .images{
 	padding:0px;
-	margin:0px 0px 0px 0px;
-	border:solid green;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
 	float:left;
 	width:47%;
 }
 .Genres-info .images div{
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 14px 117px;
-	border:solid pink;
+	border:solid black;
 	display:inline-block;
 }
 .Genres-info .images div a{
@@ -661,4 +689,153 @@ body{
 .reference-info .refer2 a{
 	color:white;
 	text-decoration:none;
+}
+
+/*--------------------------------------------------*/
+/*Industry.html file*/
+*{
+	box-sizing:border-box;
+}
+#Industry-page{
+	margin:0px 26px 0px 26px;
+	padding:0px;
+	//border: solid red;
+}
+.Industry-info{
+	margin:0px 0px 76px 0px;
+	padding:0px;
+	//border:solid blue;
+}
+.Industry-info header{
+	margin:0px 0px 36px 0px;
+	padding:13px 0px 13px 0px;
+	background-color:Black;
+}
+.Industry-info header h2{
+	font-size:39px;
+	color:white;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	font-family:'Comfortaa-Medium';
+	letter-spacing:12px;
+}
+.Industry-info p{
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-size:23px;
+	line-height:29px;
+	text-align:center;
+	text-decoration:underline;
+	font-family:sans-serif;
+}
+.Industry-info  a{
+	color:white
+}
+.Industry-info p span a:hover{
+	color:#2B78E4;
+}
+.Markets-info{
+	//border:solid blue;
+	margin:0px 0px 546px 0px;
+	//padding:0px 0px 546px 0px;
+}
+.Markets-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Markets-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+	color:white;
+}
+.Markets-info .info{
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 97px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Markets-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+	font-family:sans-serif;
+}
+.Markets-info .info p a{
+	color:white;
+	text-decoration:none;
+}
+
+.Markets-info .info p span:hover{
+	color:#CF2A27;
+}
+.Markets-info .images{
+	padding:0px;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
+	float:left;
+	width:47%;
+}
+.Markets-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 14px 278px;
+	border:solid black;
+	display:inline-block;
+}
+.Markets-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Markets-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Markets-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	//width:117px;
+}
+.Markets-info .images div p :hover{
+	color:#2B78E4;
+}
+.Markets-info .images div p:active{
+	color:#CF2A27;
+}
+.Markets-info .images div p span{
+	color:#CF2A27;
+}
+
+/*Reference section*/
+#Industry-Reference{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	border:solid red;
+}
+#Industry-Reference header{
+	margin:0px;
+	padding:0px;
+}
+#Industry-Reference header h2{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	text-align:center;
+	//border:solid pink;
+	font-size:27px;
+	font-weight:800;
+	letter-spacing:15px;
+	color:white;
 }
