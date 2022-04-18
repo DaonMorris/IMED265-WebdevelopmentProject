@@ -104,9 +104,9 @@ body{
 	position: relative;
 }
 #Youtube-Video div{
-	padding:0px 0px 0px 0px;
+	padding:10px 10px 10px 10px;
 	margin:0px 68px 0px 68px;
-	//border:solid blue;
+	background-color:black;
 }
 #Youtube-Video div video{
 	margin:0px;
@@ -120,9 +120,9 @@ body{
 	//border:solid green;
 }
 .youtube-source p{
-	margin:3px 6px 3px 6px;
+	margin:0px 6px 7px 6px;
 	padding:0px;
-	//border:solid red;
+	border:solid red;
 	text-align:right;
 	font-size:18px;
 	font-family:'Comfortaa-Medium';
@@ -158,7 +158,7 @@ body{
 #About-Page .About-info{
 	margin:36px 23px 925px 23px;
 	//padding:0px 0px 935px 0px;
-	border:solid blue;
+	//border:solid blue;
 }
 #About-Page .About-info .Wikipedia{
 	float:left;
@@ -212,6 +212,7 @@ body{
 	display:inline-block;
 	font-size:28px;
 	color:white;
+	text-decoration:underline;
 }
 #About-Page .About-info .Wikipedia .Wikipedia-HistoryOfAnime .Wikipedia-HistoryOfAnime-info{
 	margin:0px;
@@ -384,6 +385,7 @@ body{
 	text-align:center;
 	font-size:19px;
 	//width:117px;
+	line-height:24px;
 }
 .Technique-info .images div p :hover{
 	color:#2B78E4;
@@ -457,6 +459,7 @@ body{
 	text-align:center;
 	font-size:19px;
 	//width:117px;
+	line-height:24px;
 }
 .Characters-info .images div a{
 	color:white;
@@ -540,6 +543,7 @@ body{
 	text-align:center;
 	font-size:19px;
 	//width:117px;
+	line-height:24px;
 }
 .Music-info .images div p :hover{
 	color:#2B78E4;
@@ -619,6 +623,8 @@ body{
 	text-align:center;
 	font-size:19px;
 	//width:117px;
+	line-height:24px;
+	
 }
 .Genres-info .images div p :hover{
 	color:#2B78E4;
@@ -636,23 +642,23 @@ body{
 	//border:solid red;
 }
 #Reference header{
-	margin:0px;
-	padding:0px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
 	//border:solid blue;
 	border-bottom:solid black 6px;
 }
 #Reference header h2{
-	margin:0px 0px 0px 0px;
-	padding:0px;
+	margin:0px 125px 0px 125px;
+	padding:0px 0px 0px 0px;
 	text-align:center;
-	//border:solid pink;
+	border:solid pink;
 	font-size:27px;
 	font-weight:800;
 	letter-spacing:15px;
 	color:white;
 }
 .reference-info{
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 0px 125px;
 	padding:0px;
 	//border:solid yellow;
 }
@@ -661,6 +667,7 @@ body{
 	//border:solid green;
 	padding:0px 0px 0px 0px;
 	margin:0px 0px 0px 0px;
+	max-width:500px;
 }
 .reference-info .refer1 a{
 	color:white;
@@ -670,21 +677,22 @@ body{
 	margin:0px 0px 0px 0px;
 	padding:0px;
 	//width:500px;
-	//line-height: 26px;
-	//font-size:16px;
+	line-height: 28px;
+	font-size:16px;
 }
 .reference-info .refer2{
 	display:inline-block;
 	//border:solid green;
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	max-width:500px;
 }
 .reference-info .refer2 p{
 	margin:0px 0px 0px 0px;
 	padding:0px;
 	//width:500px;
-	//line-height:0px;
-	//font-size:16px;
+	line-height:28px;
+	font-size:16px;
 }
 .reference-info .refer2 a{
 	color:white;
@@ -787,7 +795,7 @@ body{
 }
 .Markets-info .images div{
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 14px 278px;
+	margin:0px 200px 14px 156px;
 	border:solid black;
 	display:inline-block;
 }
@@ -808,6 +816,7 @@ body{
 	text-align:center;
 	font-size:19px;
 	//width:117px;
+	line-height:24px;
 }
 .Markets-info .images div p :hover{
 	color:#2B78E4;
@@ -818,24 +827,149 @@ body{
 .Markets-info .images div p span{
 	color:#CF2A27;
 }
-
-/*Reference section*/
-#Industry-Reference{
-	padding:0px;
+.Awards-info{
+	//border:solid blue;
+	margin:0px 0px 723px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Awards-info header{
+	//border:solid yellow;
 	margin:0px 0px 0px 0px;
-	border:solid red;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
 }
-#Industry-Reference header{
-	margin:0px;
-	padding:0px;
-}
-#Industry-Reference header h2{
+.Awards-info header h3{
 	margin:0px 650px 0px 0px;
 	padding:0px;
-	text-align:center;
 	//border:solid pink;
+	font-size:32px;
+	color:white;
+}
+.Awards-info .info{
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 100px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Awards-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+	font-family:sans-serif;
+}
+.Awards-info .info p a{
+	color:white;
+	text-decoration:none;
+}
+.Awards-info .info p span:hover{
+	color:#CF2A27;
+}
+.Awards-info .images{
+	padding:0px;
+	margin:8px 0px 46px 0px;
+	//border:solid green;
+	float:left;
+	width:47%;
+}
+.Awards-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 14px 124px;
+	border:solid black;
+	display:inline-block;
+}
+.Awards-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Awards-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Awards-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	max-width:128px;
+	line-height:24px;
+}
+.Awards-info .images div p :hover{
+	color:#2B78E4;
+}
+.Awards-info .images div p:active{
+	color:#CF2A27;
+}
+.Awards-info .images div p span{
+	color:#CF2A27;
+}
+
+/*Reference section*/
+#Reference{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	//border:solid red;
+}
+#Reference header{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	//border:solid blue;
+	border-bottom:solid black 6px;
+}
+#Reference header h2{
+	margin:0px 125px 0px 125px;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	border:solid pink;
 	font-size:27px;
 	font-weight:800;
 	letter-spacing:15px;
 	color:white;
+}
+.reference-info{
+	margin:0px 0px 0px 125px;
+	padding:0px;
+	//border:solid yellow;
+}
+.reference-info .refer1{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	max-width:500px;
+}
+.reference-info .refer1 a{
+	color:white;
+	text-decoration:none;
+}
+.reference-info .refer1 p{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	//width:500px;
+	line-height: 28px;
+	font-size:16px;
+}
+.reference-info .refer2{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	max-width:500px;
+}
+.reference-info .refer2 p{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	//width:500px;
+	line-height:28px;
+	font-size:16px;
+}
+.reference-info .refer2 a{
+	color:white;
+	text-decoration:none;
 }
