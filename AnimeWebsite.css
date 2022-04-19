@@ -425,6 +425,10 @@ body{
 	width:53%;
 	display:block;
 }
+.Characters-info .info a{
+	color:white;
+	text-decoration:none;
+}
 .Characters-info .info p{
 	padding:0px;
 	margin:0px 0px 27px 0px;
@@ -507,6 +511,10 @@ body{
 	width:53%;
 	display:block;
 }
+.Music-info .info a{
+	color:white;
+	text-decoration:none;
+}
 .Music-info .info p{
 	padding:0px;
 	margin:0px 0px 0px 0px;
@@ -585,6 +593,10 @@ body{
 	float:left;
 	width:53%;
 	display:block;
+}
+.Genres-info .info a{
+	color:white;
+	text-decoration:none;
 }
 .Genres-info .info p{
 	padding:0px;
@@ -1140,6 +1152,10 @@ body{
 	width:53%;
 	display:block;
 }
+.Pioneers-info .info a{
+	color:white;
+	text-decoration:none;
+}
 .Pioneers-info .info p{
 	padding:0px;
 	margin:0px 0px 27px 0px;
@@ -1220,6 +1236,10 @@ body{
 	float:left;
 	width:53%;
 	display:block;
+}
+.ModernEra-info .info a{
+	color:white;
+	text-decoration:none;
 }
 .ModernEra-info .info p{
 	padding:0px;
