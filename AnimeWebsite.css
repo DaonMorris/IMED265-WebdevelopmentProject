@@ -13,7 +13,7 @@ body{
     background-color:#333333;
 	padding:0px 0px 0px 0px;
 	background-image:url("Image/HomePage Image/background_anime.gif");
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	background-blend-mode:overlay;
 	background-size: auto;
 } 
@@ -91,7 +91,7 @@ body{
 	padding:0px;
 	font-size:24px;
 	text-align:center;
-	font-family:sans-serif;
+	font-family:'Comfortaa-Medium';
 }
 #top-bar-menu .menu div a{
 	color:white;
@@ -307,7 +307,7 @@ body{
 	padding:0px;
 	color:white;
 	font-size:23px;
-	line-height:29px;
+	line-height:33px;
 	text-align:center;
 	text-decoration:underline;
 	font-family:sans-serif;
@@ -335,6 +335,7 @@ body{
 	//border:solid pink;
 	font-size:32px;
 	color:white;
+	font-family:sans-serif;
 }
 .Technique-info .info{
 	padding:0px 0px 0px 0px;
@@ -386,6 +387,7 @@ body{
 	font-size:19px;
 	//width:117px;
 	line-height:24px;
+	font-family:sans-serif;
 }
 .Technique-info .images div p :hover{
 	color:#2B78E4;
@@ -413,6 +415,7 @@ body{
 	//border:solid pink;
 	font-size:32px;
 	color:white;
+	font-family:sans-serif;
 }
 .Characters-info .info{
 	padding:0px;
@@ -460,6 +463,7 @@ body{
 	font-size:19px;
 	//width:117px;
 	line-height:24px;
+	font-family:sans-serif;
 }
 .Characters-info .images div a{
 	color:white;
@@ -492,6 +496,7 @@ body{
 	//border:solid pink;
 	font-size:32px;
 	color:white;
+	font-family:sans-serif;
 	
 }
 .Music-info .info{
@@ -625,6 +630,7 @@ body{
 	//width:117px;
 	line-height:24px;
 	
+	
 }
 .Genres-info .images div p :hover{
 	color:#2B78E4;
@@ -635,6 +641,288 @@ body{
 .Genres-info .images div p span{
 	color:#CF2A27;
 }
+/*Reference section*/
+#Reference{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	//border:solid red;
+}
+#Reference header{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	//border:solid blue;
+	border-bottom:solid black 6px;
+}
+#Reference header h2{
+	margin:0px 125px 0px 125px;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	border:solid pink;
+	font-size:27px;
+	font-weight:800;
+	letter-spacing:15px;
+	color:white;
+	font-family:'Comfortaa-Medium';
+}
+.reference-info{
+	margin:0px 0px 0px 125px;
+	padding:0px;
+	//border:solid yellow;
+}
+.reference-info .refer1{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	max-width:500px;
+}
+.reference-info .refer1 a{
+	color:white;
+	text-decoration:none;
+}
+.reference-info .refer1 p{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	//width:500px;
+	line-height: 28px;
+	font-size:16px;
+	font-family:sans-serif;
+}
+.reference-info .refer2{
+	display:inline-block;
+	//border:solid green;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	max-width:500px;
+}
+.reference-info .refer2 p{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	//width:500px;
+	line-height:28px;
+	font-size:16px;
+	font-family:sans-serif;
+}
+.reference-info .refer2 a{
+	color:white;
+	text-decoration:none;
+}
+
+/*--------------------------------------------------*/
+/*Industry.html file*/
+*{
+	box-sizing:border-box;
+}
+#Industry-page{
+	margin:0px 26px 0px 26px;
+	padding:0px;
+	//border: solid red;
+}
+.Industry-info{
+	margin:0px 0px 76px 0px;
+	padding:0px;
+	//border:solid blue;
+}
+.Industry-info header{
+	margin:0px 0px 36px 0px;
+	padding:13px 0px 13px 0px;
+	background-color:Black;
+}
+.Industry-info header h2{
+	font-size:39px;
+	color:white;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	font-family:'Comfortaa-Medium';
+	letter-spacing:12px;
+}
+.Industry-info p{
+	margin:0px;
+	padding:0px;
+	color:white;
+	font-size:23px;
+	line-height:33px;
+	text-align:center;
+	text-decoration:underline;
+	font-family:sans-serif;
+}
+.Industry-info  a{
+	color:white
+}
+.Industry-info p span a:hover{
+	color:#2B78E4;
+}
+.Markets-info{
+	//border:solid blue;
+	margin:0px 0px 546px 0px;
+	//padding:0px 0px 546px 0px;
+}
+.Markets-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Markets-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+	color:white;
+	font-family:sans-serif;
+}
+.Markets-info .info{
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 97px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Markets-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+	font-family:sans-serif;
+}
+.Markets-info .info p a{
+	color:white;
+	text-decoration:none;
+}
+
+.Markets-info .info p span:hover{
+	color:#CF2A27;
+}
+.Markets-info .images{
+	padding:0px;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
+	float:left;
+	width:47%;
+}
+.Markets-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 200px 14px 156px;
+	border:solid black;
+	display:inline-block;
+}
+.Markets-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Markets-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Markets-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	//width:117px;
+	line-height:24px;
+	font-family:sans-serif;
+}
+.Markets-info .images div p :hover{
+	color:#2B78E4;
+}
+.Markets-info .images div p:active{
+	color:#CF2A27;
+}
+.Markets-info .images div p span{
+	color:#CF2A27;
+}
+.Awards-info{
+	//border:solid blue;
+	margin:0px 0px 886px 0px;
+	padding:0px 0px 0px 0px;
+}
+.Awards-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.Awards-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+	color:white;
+	font-family:sans-serif;
+}
+.Awards-info .info{
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 100px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.Awards-info .info p{
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+	font-family:sans-serif;
+}
+.Awards-info .info p a{
+	color:white;
+	text-decoration:none;
+}
+.Awards-info .info p span:hover{
+	color:#CF2A27;
+}
+.Awards-info .images{
+	padding:0px;
+	margin:8px 0px 46px 0px;
+	//border:solid green;
+	float:left;
+	width:47%;
+}
+.Awards-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 14px 124px;
+	border:solid black;
+	display:inline-block;
+}
+.Awards-info .images div img{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.Awards-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Awards-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	max-width:128px;
+	line-height:24px;
+	font-family:sans-serif;
+}
+.Awards-info .images div p :hover{
+	color:#2B78E4;
+}
+.Awards-info .images div p:active{
+	color:#CF2A27;
+}
+.Awards-info .images div p span{
+	color:#CF2A27;
+}
+
 /*Reference section*/
 #Reference{
 	padding:0px;
@@ -699,27 +987,26 @@ body{
 	text-decoration:none;
 }
 
-/*--------------------------------------------------*/
-/*Industry.html file*/
+/*-----History.html----*/
 *{
 	box-sizing:border-box;
 }
-#Industry-page{
+#History-page{
 	margin:0px 26px 0px 26px;
 	padding:0px;
 	//border: solid red;
 }
-.Industry-info{
+.History-info{
 	margin:0px 0px 76px 0px;
 	padding:0px;
 	//border:solid blue;
 }
-.Industry-info header{
+.History-info header{
 	margin:0px 0px 36px 0px;
 	padding:13px 0px 13px 0px;
 	background-color:Black;
 }
-.Industry-info header h2{
+.History-info header h2{
 	font-size:39px;
 	color:white;
 	padding:0px;
@@ -728,41 +1015,41 @@ body{
 	font-family:'Comfortaa-Medium';
 	letter-spacing:12px;
 }
-.Industry-info p{
+.History-info p{
 	margin:0px;
 	padding:0px;
 	color:white;
 	font-size:23px;
-	line-height:29px;
+	line-height:33px;
 	text-align:center;
 	text-decoration:underline;
 	font-family:sans-serif;
 }
-.Industry-info  a{
+.History-info  a{
 	color:white
 }
-.Industry-info p span a:hover{
+.History-info p span a:hover{
 	color:#2B78E4;
 }
-.Markets-info{
+.Precursors-info{
 	//border:solid blue;
-	margin:0px 0px 546px 0px;
-	//padding:0px 0px 546px 0px;
+	margin:0px 0px 423px 0px;
+	padding:0px 0px 0px 0px;
 }
-.Markets-info header{
+.Precursors-info header{
 	//border:solid yellow;
 	margin:0px 0px 0px 0px;
 	padding:0px 400px 0px 0px;
 	border-bottom:solid black 6px;
 }
-.Markets-info header h3{
+.Precursors-info header h3{
 	margin:0px 650px 0px 0px;
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
 	color:white;
 }
-.Markets-info .info{
+.Precursors-info .info{
 	padding:0px 0px 0px 0px;
 	margin:8px 0px 97px 0px;
 	//border:solid green;
@@ -770,7 +1057,7 @@ body{
 	width:53%;
 	display:block;
 }
-.Markets-info .info p{
+.Precursors-info .info p{
 	padding:0px;
 	margin:0px 0px 0px 0px;
 	color:white;
@@ -778,38 +1065,38 @@ body{
 	line-height:29px;
 	font-family:sans-serif;
 }
-.Markets-info .info p a{
+.Precursors-info .info p span:hover{
+	color:#CF2A27;
+	cursor:pointer;
+}
+.Precursors-info .info a{
 	color:white;
 	text-decoration:none;
 }
-
-.Markets-info .info p span:hover{
-	color:#CF2A27;
-}
-.Markets-info .images{
+.Precursors-info .images{
 	padding:0px;
 	margin:8px 0px 0px 0px;
 	//border:solid green;
 	float:left;
 	width:47%;
 }
-.Markets-info .images div{
+.Precursors-info .images div{
 	padding:0px 0px 0px 0px;
-	margin:0px 200px 14px 156px;
+	margin:0px 0px 14px 117px;
 	border:solid black;
 	display:inline-block;
 }
-.Markets-info .images div img{
+.Precursors-info .images div img{
 	margin:0px;
 	padding:0px;
 	max-width:100%;
 	height:auto;
 }
-.Markets-info .images div a{
+.Precursors-info .images div a{
 	color:white;
 	text-decoration:none;
 }
-.Markets-info .images div p{
+.Precursors-info .images div p{
 	margin:6px 0px 0px 0px;
 	padding:0px;
 	color:white;
@@ -818,98 +1105,175 @@ body{
 	//width:117px;
 	line-height:24px;
 }
-.Markets-info .images div p :hover{
+.Precursors-info .images div p :hover{
 	color:#2B78E4;
 }
-.Markets-info .images div p:active{
+.Precursors-info .images div p:active{
 	color:#CF2A27;
 }
-.Markets-info .images div p span{
+.Precursors-info .images div p span{
 	color:#CF2A27;
 }
-.Awards-info{
+.Pioneers-info{
 	//border:solid blue;
-	margin:0px 0px 723px 0px;
+	margin:0px 0px 643px 0px;
 	padding:0px 0px 0px 0px;
 }
-.Awards-info header{
+.Pioneers-info header{
 	//border:solid yellow;
 	margin:0px 0px 0px 0px;
 	padding:0px 400px 0px 0px;
 	border-bottom:solid black 6px;
 }
-.Awards-info header h3{
+.Pioneers-info header h3{
 	margin:0px 650px 0px 0px;
 	padding:0px;
 	//border:solid pink;
 	font-size:32px;
 	color:white;
 }
-.Awards-info .info{
-	padding:0px 0px 0px 0px;
-	margin:8px 0px 100px 0px;
+.Pioneers-info .info{
+	padding:0px;
+	margin:8px 0px 47px 0px;
 	//border:solid green;
 	float:left;
 	width:53%;
 	display:block;
 }
-.Awards-info .info p{
+.Pioneers-info .info p{
 	padding:0px;
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 27px 0px;
 	color:white;
 	font-size:19px;
 	line-height:29px;
 	font-family:sans-serif;
 }
-.Awards-info .info p a{
-	color:white;
-	text-decoration:none;
-}
-.Awards-info .info p span:hover{
+.Pioneers-info .info p span:hover{
 	color:#CF2A27;
+	cursor:pointer;
 }
-.Awards-info .images{
+.Pioneers-info .images{
 	padding:0px;
-	margin:8px 0px 46px 0px;
+	margin:8px 0px 0px 0px;
 	//border:solid green;
 	float:left;
 	width:47%;
 }
-.Awards-info .images div{
+.Pioneers-info .images div{
 	padding:0px 0px 0px 0px;
-	margin:0px 0px 14px 124px;
+	margin:0px 0px 14px 117px;
 	border:solid black;
 	display:inline-block;
 }
-.Awards-info .images div img{
+.Pioneers-info .images div img{
 	margin:0px;
 	padding:0px;
 	max-width:100%;
 	height:auto;
 }
-.Awards-info .images div a{
-	color:white;
-	text-decoration:none;
-}
-.Awards-info .images div p{
+.Pioneers-info .images div p{
 	margin:6px 0px 0px 0px;
 	padding:0px;
 	color:white;
 	text-align:center;
 	font-size:19px;
-	max-width:128px;
+	//width:117px;
 	line-height:24px;
 }
-.Awards-info .images div p :hover{
+.Pioneers-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.Pioneers-info .images div p :hover{
 	color:#2B78E4;
 }
-.Awards-info .images div p:active{
+.Pioneers-info .images div p:active{
 	color:#CF2A27;
 }
-.Awards-info .images div p span{
+.Pioneers-info .images div p span{
 	color:#CF2A27;
 }
 
+.ModernEra-info{
+	//border:solid blue;
+	margin:0px 0px 888px 0px;
+	padding:0px 0px 0px 0px;
+}
+.ModernEra-info header{
+	//border:solid yellow;
+	margin:0px 0px 0px 0px;
+	padding:0px 400px 0px 0px;
+	border-bottom:solid black 6px;
+}
+.ModernEra-info header h3{
+	margin:0px 650px 0px 0px;
+	padding:0px;
+	//border:solid pink;
+	font-size:32px;
+	color:white;
+	
+}
+.ModernEra-info .info{
+	padding:0px 0px 0px 0px;
+	margin:8px 0px 47px 0px;
+	//border:solid green;
+	float:left;
+	width:53%;
+	display:block;
+}
+.ModernEra-info .info p{
+	padding:0px;
+	margin:0px 0px 26px 0px;
+	color:white;
+	font-size:19px;
+	line-height:29px;
+	font-family:sans-serif;
+}
+.ModernEra-info .info p span:hover{
+	color:#CF2A27;
+	cursor:pointer;
+}
+.ModernEra-info .images{
+	padding:0px;
+	margin:8px 0px 0px 0px;
+	//border:solid green;
+	float:left;
+	width:47%;
+}
+.ModernEra-info .images div{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 14px 117px;
+	border:solid black;
+	display:inline-block;
+}
+.ModernEra-info .images div a{
+	color:white;
+	text-decoration:none;
+}
+.ModernEra-info .images div img{
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	max-width:100%;
+	height:auto;
+}
+.ModernEra-info .images div p{
+	margin:6px 0px 0px 0px;
+	padding:0px;
+	color:white;
+	text-align:center;
+	font-size:19px;
+	//width:117px;
+	line-height:24px;
+}
+.ModernEra-info .images div p :hover{
+	color:#2B78E4;
+}
+.ModernEra-info .images div p:active{
+	color:#CF2A27;
+}
+.ModernEra-info .images div p span{
+	color:#CF2A27;
+}
 /*Reference section*/
 #Reference{
 	padding:0px;
